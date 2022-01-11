@@ -49,6 +49,7 @@ void main(List<String> args) {
   } else {
     print("Hatalı Not Girişi");
   }
+  print("Not Ortalaması = $ortalamaSinav");
 
   print("**************");
   //Döngü İle Ad Yazırma
@@ -76,5 +77,4 @@ void main(List<String> args) {
     faktoriyel *= i;
   }
   print("$sayi! = $faktoriyel");
-
 }

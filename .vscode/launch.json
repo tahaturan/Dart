@@ -8,7 +8,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "bolum2/donguler.dart"
+            "program": "${file}",
+            "console": "terminal"
         }
     ]
 }

@@ -19,6 +19,7 @@ void main(List<String> args) {
 
   print("Fiyatı Giriniz: ");
   double fiyat = double.parse(stdin.readLineSync()!);
-  double kdv = (fiyat * 0.18) +fiyat;
+  double kdv = (fiyat * 0.18) + fiyat;
   print("KDV li Fiyat = $kdv");
+
 }

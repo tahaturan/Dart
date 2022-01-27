@@ -20,7 +20,7 @@ void main(List<String> args) {
     print("Seçimizi: Çember alanı ");
     print("Yarı Çapı Giriniz");
     int yariCap = int.parse(stdin.readLineSync()!);
-    var cemberAlan = (3.14 * 3.14) * yariCap;
+    var cemberAlan = 3.14 * (yariCap* yariCap);
     print("Çemberin Alanı: $cemberAlan");
   } else {
     print("Hatali Seçim");

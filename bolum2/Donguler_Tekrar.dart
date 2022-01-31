@@ -16,5 +16,12 @@ void main(List<String> args) {
   for (var i = 1; i <= tekrar; i++) {
     print("$i-) $isim");
   }
+    //veri işleme while
 
+  print("İşlenecek Veri Miktarını Giriniz: ");
+  int veriSayisi = int.parse(stdin.readLineSync()!);
+  while (veriSayisi > 0) {
+    print("$veriSayisi. Veri");
+    veriSayisi--;
+  }
 }

@@ -41,5 +41,7 @@ void main(List<String> args) {
   }
 
   // ve yine liste içinde tekrar eden elemanları kullanmadı sadece birini aldı
-
+  //spreads operator
+  //iki küme elemanalrını tek kümeye aktarmak için kullanılan pratik yol
+  //böyle ... eklemek istediğimiz kümenin basına koyarak yapabiliriz.
 }

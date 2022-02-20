@@ -1,3 +1,6 @@
+
+import 'dart:async';
+
 void main(List<String> args) {
   List<int> sayilar = [10, 8, 4, 11, 2];
   print(sayilar.first); //listenin ilk elmanını verir
@@ -41,4 +44,16 @@ void main(List<String> args) {
   sayilar.shuffle(); //listedeki elemanalrın yerini rastgele değiştirir
   //ana kaynagı etkiler bu metod reverse gibi o anlık değil
   print(sayilar);
+
+  print("*************");
+  //spreads operator
+  //iki liste elemanalrını tek listede aktarmak için kullanılan pratik yol
+
+  List liste1 = [1, 3, 5, 7];
+  List liste2 = [2, 4, 6, 8];
+  List sonListe = [...liste1, ...liste2];
+  //böyle ... eklemek istediğimiz listenin basına koyarak yapabiliriz.
+  print(sonListe);
+
+  //bunu kümlerde(set) ve map(sözlük) yapısında da kullanbiliriz
 }

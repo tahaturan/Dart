@@ -4,9 +4,11 @@ void main(List<String> args) {
   honda.modelYili = 2006;
   honda.otomatikMi = true;
   honda.bilgileriSoyle();
+  print("******************");
 
   var bmw = Araba2(2021, "bmw", true);
   bmw.bilgiler();
+  bmw.yasHesapla();
 }
 
 class Araba {
@@ -29,11 +31,14 @@ class Araba2 {
   String? marka;
   bool? otomatikMi;
 
-  Araba2(int modelYili, String marka, bool otomatikMi) {
+  Araba2(this.modelYili, this.marka, this.otomatikMi) {
     print("Kurucu metod çalsıtı...");
-    
   }
   void bilgiler() {
     print("model yili $modelYili\nmarkası: $marka\notomatik mi: $otomatikMi");
+  }
+
+  void yasHesapla() {
+    print("arabanın yası: ${2022 - modelYili!}");
   }
 }

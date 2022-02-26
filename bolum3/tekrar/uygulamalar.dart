@@ -6,7 +6,7 @@ class Uygulamalar {
   }
   //Dikdörtgenin Çevresi
   void dikdortgenCevre(int uzunKenar, int kisaKenar) {
-    int cevre = uzunKenar * kisaKenar;
+    int cevre = 2*uzunKenar + 2* kisaKenar;
     print("Çevre: $cevre");
   }
   //Faktoriyel Hesaplama

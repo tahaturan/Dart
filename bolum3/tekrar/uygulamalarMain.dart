@@ -25,5 +25,8 @@ void main(List<String> args) {
   double maasHesapla = islemler.maasHesabi(22);
   print("Maaş: $maasHesapla");
   print("*************************");
+  //İnternet Faturası Hesaplama
+  double internetUcreti = islemler.faturaInternet(60);
+  print("İnternet Faturası: $internetUcreti");
 
 }

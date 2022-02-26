@@ -43,4 +43,13 @@ class Uygulamalar {
     }
     return maas;
   }
+  //İnternet Faturası Hesaplama
+  double faturaInternet(double kotaMiktari) {
+    double fatura = 100;
+    if (kotaMiktari > 50) {
+      double kotaAsimi = (kotaMiktari % 50) * 4;
+      fatura += kotaAsimi;
+    }
+    return fatura;
+  }
 }

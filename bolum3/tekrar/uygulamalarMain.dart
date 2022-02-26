@@ -7,5 +7,8 @@ void main(List<String> args) {
   double derece = islemler.dereceDonusum(32);
   print("fahrenhiet türünden değeri: $derece");
   print("*************************");
+  //Dikdörtgenin Çevresi
+  islemler.dikdortgenCevre(20, 12);
+  print("*************************");
 
 }

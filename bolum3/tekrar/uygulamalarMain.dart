@@ -17,5 +17,9 @@ void main(List<String> args) {
   //Kelime içinde geçen harf adetini gösterme
   islemler.harfSayaci("Taha Turan", "a");
   print("*************************");
+  //Kenar Sayısına Göre İç Açılar Toplamını Hesaplama
+  int icaciHesabi = islemler.acilarHesabi(3);
+  print("İç Açılar Toplamı: $icaciHesabi");
+  print("*************************");
 
 }

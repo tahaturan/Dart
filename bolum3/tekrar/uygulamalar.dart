@@ -28,4 +28,9 @@ class Uygulamalar {
     }
     print("$kelime kelimesinde $harf harfi $adet kere geçmektedir");
   }
+  //Kenar Sayısına Göre İç Açılar Toplamını Hesaplama
+  int acilarHesabi(int kenarSayisi) {
+    int sonuc = (kenarSayisi - 2) * 180;
+    return sonuc;
+  }
 }

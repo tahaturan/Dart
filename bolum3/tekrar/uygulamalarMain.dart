@@ -14,5 +14,8 @@ void main(List<String> args) {
   int faktoriyelHesap = islemler.faktoriyel(6);
   print("Sayının Faktoriyeli: $faktoriyelHesap");
   print("*************************");
+  //Kelime içinde geçen harf adetini gösterme
+  islemler.harfSayaci("Taha Turan", "a");
+  print("*************************");
 
 }

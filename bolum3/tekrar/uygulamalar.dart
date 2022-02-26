@@ -17,4 +17,15 @@ class Uygulamalar {
     }
     return faktoriyel;
   }
+  //Kelime içinde geçen harf adetini gösterme
+  void harfSayaci(String kelime, String harf) {
+    int adet = 0;
+
+    for (var i = 0; i < kelime.length; i++) {
+      if (kelime[i] == harf) {
+        adet++;
+      }
+    }
+    print("$kelime kelimesinde $harf harfi $adet kere geçmektedir");
+  }
 }

@@ -10,5 +10,9 @@ void main(List<String> args) {
   //Dikdörtgenin Çevresi
   islemler.dikdortgenCevre(20, 12);
   print("*************************");
+  //Faktoriyel Hesaplama
+  int faktoriyelHesap = islemler.faktoriyel(6);
+  print("Sayının Faktoriyeli: $faktoriyelHesap");
+  print("*************************");
 
 }

@@ -33,4 +33,14 @@ class Uygulamalar {
     int sonuc = (kenarSayisi - 2) * 180;
     return sonuc;
   }
+  //Gün Sayısına Göre Maaş Hesabı Yapma
+  double maasHesabi(double gun) {
+    double calismaSaati = gun * 8;
+    double maas = (calismaSaati * 10) - ((calismaSaati % 160) * 10);
+    if (calismaSaati > 160) {
+      double ekMesai = (calismaSaati - 160) * 20;
+      maas += ekMesai;
+    }
+    return maas;
+  }
 }

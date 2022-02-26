@@ -21,5 +21,9 @@ void main(List<String> args) {
   int icaciHesabi = islemler.acilarHesabi(3);
   print("İç Açılar Toplamı: $icaciHesabi");
   print("*************************");
+  //Gün Sayısına Göre Maaş Hesabı Yapma
+  double maasHesapla = islemler.maasHesabi(22);
+  print("Maaş: $maasHesapla");
+  print("*************************");
 
 }

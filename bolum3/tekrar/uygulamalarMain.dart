@@ -22,7 +22,7 @@ void main(List<String> args) {
   print("İç Açılar Toplamı: $icaciHesabi");
   print("*************************");
   //Gün Sayısına Göre Maaş Hesabı Yapma
-  double maasHesapla = islemler.maasHesabi(22);
+  double maasHesapla = islemler.maasHesabi(30);
   print("Maaş: $maasHesapla");
   print("*************************");
   //İnternet Faturası Hesaplama

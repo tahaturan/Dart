@@ -21,3 +21,10 @@ void main(List<String> args) {
     print("Null değer");
   }
 }
+
+class LateKullanimi {
+  // late kavramı class içersinde kullanılır
+  // int x=; // !bu şekilde değer akarmadan değişken olusturamayız
+  late int y; //*late kavramıyla değer atamadan değişken olusturabiliriz
+  
+}

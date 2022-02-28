@@ -12,7 +12,7 @@ class Mudur extends Personel {
     //todo bu şekilde downcasting işlemi ypamıs olduk yani üst sınıftaki personel türündeki nesneyi alt sınıftaki ogretmen nesnesine dönüştürdük
     //! as ifadesi ile dönüşüm yapılır eğer üst sınıfraki(SuperClass) nesneyi alt sınıftaki(SubClass) nesneye dönüştürmek istersek
     //********************************************* */
-    if (p is Ogretmen) {
+    if (p is Ogretmen) { //todo tşp kontrolü yapmak içinde is ifadesini kullanırız kosul içinde bu bize true yada false değer döndürür.
       p.maasArttir();
     } else if(p is Isci){
       p.maasArttir();

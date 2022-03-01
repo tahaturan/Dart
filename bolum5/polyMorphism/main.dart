@@ -18,6 +18,4 @@ void main(List<String> args) {
   mudur.iseAl(isci);
 
   //* mudur sınıfındaki iseAl metodu içine parametre olarak personel sınıfından olan bir nensne istediği için biz ogretmen ve işçi nesneleriimizi olustururken polymorphisim i kullanık yani çok şekillik personel veri tipinde ama davranısı ogretmen sınıfına ait
-
-  
 }

@@ -4,7 +4,7 @@ import 'squeezable.dart';
 class Tavuk implements Squeezable, Eatable {
   @override
   void howToEat() {
-    print("Tavuk Yenebilir");
+    print("Kızart ve Ye");
   }
 
   @override

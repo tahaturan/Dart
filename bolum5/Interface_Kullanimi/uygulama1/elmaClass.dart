@@ -4,11 +4,11 @@ import 'squeezable.dart';
 class Elma implements Squeezable, Eatable {
   @override
   void howToEat() {
-    print("Elma Yenebilir...");
+    print("Dilimle ve Ye");
   }
 
   @override
   void howTosqueeze() {
-    print("Elma Sıkılabilir...");
+    print("Meyve sıkacagı ile suyunu sık");
   }
 }

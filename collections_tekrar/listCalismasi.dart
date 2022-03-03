@@ -66,4 +66,7 @@ void main(List<String> args) {
   meyveler.remove("Elma");
   print(meyveler);
   //todo içine girilen değerdeki elemanı(elemanları) siler
+
+  meyveler.clear();
+  //todo bütün listeyi sıfırlar
 }

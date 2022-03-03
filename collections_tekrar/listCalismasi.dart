@@ -40,4 +40,9 @@ void main(List<String> args) {
   //todo bu işlem bize liste dolu ise False boş ise True değer döndürür yani listenin boş mu dolumu oldugunun kontrolünü yapar
   print(meyveler.length);
   //todo listenin boyutunu verir yani kaç elemanlı oldugunu söyler
+
+  print(meyveler.first);
+  print(meyveler.last);
+  //todo listenin ilk elemanını ve son elamnını verir
+  
 }

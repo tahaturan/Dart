@@ -67,6 +67,20 @@ void main(List<String> args) {
   print(meyveler);
   //todo içine girilen değerdeki elemanı(elemanları) siler
 
-  meyveler.clear();
+  //meyveler.clear();
   //todo bütün listeyi sıfırlar
+  print("**********Döngü ile Verilere Erişme***********");
+
+  //* Döngü ile Verilere Erişme
+  //Yöntem1
+  int sayac = 0;
+  for (var i in meyveler) {
+    print("listenin $sayac.indexinde $i vardır");
+    sayac++;
+  }
+  print("----------------------------");
+  //Yöntem2
+  for (var i = 0; i < meyveler.length; i++) {
+    print("$i: ${meyveler[i]}");
+  }
 }

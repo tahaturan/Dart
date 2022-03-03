@@ -62,4 +62,8 @@ void main(List<String> args) {
   meyveler.removeAt(2);
   print(meyveler);
   //todo içine verilen index değerindeki elemanı siler
+
+  meyveler.remove("Elma");
+  print(meyveler);
+  //todo içine girilen değerdeki elemanı(elemanları) siler
 }

@@ -55,4 +55,11 @@ void main(List<String> args) {
   meyveler.sort();
   print(meyveler);
   //todo meyveler listesini sıraladık sort() metodu sıralama işlemş yapar listemiz String türden verilerden olustugu için alfabetik bir sıralama yaptı int türünde veriler olsadı büyükten küçüğe bir sıralama yapardı
+
+  //* Silme İşlemleri
+  print("****************Silme İşlemleri****************");
+
+  meyveler.removeAt(2);
+  print(meyveler);
+  //todo içine verilen index değerindeki elemanı siler
 }

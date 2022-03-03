@@ -51,5 +51,8 @@ void main(List<String> args) {
   var liste = meyveler.reversed;
   print(liste);
   //todo burada ise meyveler listesini tersine çevirerek yeni bir listeye aktardık reversed işelmi listeyi tersine çevirir
-  
+
+  meyveler.sort();
+  print(meyveler);
+  //todo meyveler listesini sıraladık sort() metodu sıralama işlemş yapar listemiz String türden verilerden olustugu için alfabetik bir sıralama yaptı int türünde veriler olsadı büyükten küçüğe bir sıralama yapardı
 }

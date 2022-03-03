@@ -15,6 +15,12 @@ void main(List<String> args) {
   print(meyveler);
   //! add metodu sürekli olarak listenin sonuna ekleme yapar
   print("***************");
-  meyveler[1] ="Karpuz"; //burada ise güncelleme yaptık muz yerine karpuz ekledik
+  meyveler[1] = "Karpuz"; //burada güncelleme yaptık muz yerine karpuz ekledik
+  print(meyveler);
+  print("***************");
+  //* insert metodu
+  meyveler.insert(3, "Mango");
+  //todo insert metodu ise add den farklı olarak listenin sonuna değilde hangi indexe ekleme yapacagımızı belirtip öyle ekleme yapıyoruz
+  //todo örneğin burada 3.index e "mango" ekle dedik
   print(meyveler);
 }

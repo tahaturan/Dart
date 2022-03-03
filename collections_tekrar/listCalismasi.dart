@@ -44,5 +44,8 @@ void main(List<String> args) {
   print(meyveler.first);
   print(meyveler.last);
   //todo listenin ilk elemanını ve son elamnını verir
-  
+
+  print(meyveler.contains("Kiraz"));
+  //todo contains metodunun içine girdiğimiz değeri listede arar eğer listede varsa true yoksa false değer döndürür
+
 }

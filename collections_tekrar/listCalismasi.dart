@@ -23,4 +23,14 @@ void main(List<String> args) {
   //todo insert metodu ise add den farklı olarak listenin sonuna değilde hangi indexe ekleme yapacagımızı belirtip öyle ekleme yapıyoruz
   //todo örneğin burada 3.index e "mango" ekle dedik
   print(meyveler);
+
+  //* Veri Okuma işlemleri
+
+  //yöntem1
+  String meyve1 = meyveler[1];
+  //todo meyve bir diye değişken olustuduk ve ona meyveler listenini 1. indexindeki elemanı atadık
+  print(meyve1);
+  //yöntem2
+  print(meyveler[4]);
+  //todo burada ise direk print diyerek meyveler listesinde 4.indexte bulunan elemanı ekrana yazdırabiliriz
 }

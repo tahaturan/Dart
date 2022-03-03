@@ -33,6 +33,26 @@ void main(List<String> args) {
   Comparator<Ogrenciler> siramalaBuyukAd = (x, y) => y.ad.compareTo(x.ad);
   ogrenciler.sort(siramalaBuyukAd);
   listeYazdir(ogrenciler);
+
+  //* Filtremele İşlemleri
+  print("**********Filtreleme İslemleri*********");
+  print("Nota göre filtreleme");
+  //* Iterable<Ogrenciler> filtrelenenListe = ogrenciler.where((ogrenci) {
+  //*   return ogrenci.no >= 100;
+  //* });
+  //* ogrenciler = filtrelenenListe.toList();
+  //* listeYazdir(ogrenciler);
+  //todo yukarıda listemizi filtreledik içindeki nesnelein notlarına bakarak 100e eşit ve büyük olanları altık son olarak da gelen veriyi listemize eşitledik .toList() diyerek de liste veri tipine dönüştürüp ekrana yazdırdık
+  //todo şimdide nota göre değilde ad a göre bi filtre uygulayalım
+  print("Ad a göre filtreleme");
+  Iterable<Ogrenciler> filtreAd = ogrenciler.where((element) { //? element yazan yeri for in içindeki i gibi düşünebiliriz nesnemizi tutan değişken yani
+    return element.ad.contains("t");
+    //todo NOT: contains medotu stringlerde içine giriğimiz değeri arar listelerde de liste elemanları içinde arardı
+  });
+  ogrenciler = filtreAd.toList();
+  listeYazdir(ogrenciler);
+  //todo yukarıda nesnelerimiz içinde içinde t harfi geçenleri döndür şeklinde bir işlem yaptık ve son olarak liste veri tipine dönüştürüp listemize aktardık.
+
 }
 
 void listeYazdir(List ogrenci) {

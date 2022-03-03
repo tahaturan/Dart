@@ -48,4 +48,8 @@ void main(List<String> args) {
   print(meyveler.contains("Kiraz"));
   //todo contains metodunun içine girdiğimiz değeri listede arar eğer listede varsa true yoksa false değer döndürür
 
+  var liste = meyveler.reversed;
+  print(liste);
+  //todo burada ise meyveler listesini tersine çevirerek yeni bir listeye aktardık reversed işelmi listeyi tersine çevirir
+  
 }

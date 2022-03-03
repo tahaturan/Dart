@@ -33,4 +33,9 @@ void main(List<String> args) {
   //yöntem2
   print(meyveler[4]);
   //todo burada ise direk print diyerek meyveler listesinde 4.indexte bulunan elemanı ekrana yazdırabiliriz
+  print("********List İşlemleri***********");
+
+  //*List İşlemeleri
+  print(meyveler.isEmpty);
+  //todo bu işlem bize liste dolu ise False boş ise True değer döndürür yani listenin boş mu dolumu oldugunun kontrolünü yapar
 }

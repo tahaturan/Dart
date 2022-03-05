@@ -12,12 +12,12 @@ void main(List<String> args) {
     print("$i.Müşternin Yaşı: ");
     int age = int.parse(stdin.readLineSync()!);
     print("$i.Müşternin Yaşadığı İl: ");
-    String country = stdin.readLineSync()!;
+    String city = stdin.readLineSync()!;
     print("$i.Müşternin Yaşadığı İlçe: ");
     String district = stdin.readLineSync()!;
 
     Address address =
-        Address(country, district); //todo: Adress nesnesini olsuturduk
+        Address(city, district); //todo: Adress nesnesini olsuturduk
     customers.add(Customers(name, age, address));
     i++;
   }
@@ -30,8 +30,8 @@ void informationPrint(List<Customers> list) {
     print("$meter.Müşteri Bilgileri");
     print("Müşteri adı (Customer Name): ${item.name}");
     print("Müşteri yaşı: (Customer Age): ${item.age}");
-    print("Yaşadığı İl (City of Residence): ${item.address.country}");
-    print("Yaşadığı İlçe (Contry where Lives): ${item.address.district}");
+    print("Yaşadığı İl (city where Lives): ${item.address.city}");
+    print("Yaşadığı İlçe (district where Lives): ${item.address.district}");
     print("-----------------------------------------------------------");
     meter++;
   }

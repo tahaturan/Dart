@@ -1,6 +1,6 @@
 class Address {
-  String country; //il
+  String city; //il
   String district; // ilçe
 
-  Address(this.country, this.district); //consturctor
+  Address(this.city, this.district); //consturctor
 }

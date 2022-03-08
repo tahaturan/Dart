@@ -28,4 +28,10 @@ void main(List<String> args) {
 
   print(str1.isEmpty); //todo: icersinde bilgi varsa false icesinde bilgi yoksa true deger dondurur
 
+  // Tersten Kelime yazdirma ornegi
+  String ters = "";
+  for (var i = str1.length - 1; i >= 0; i--) {
+    ters += str1[i];
+  }
+  print(ters);
 }
